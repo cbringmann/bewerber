@@ -1,0 +1,15 @@
+{
+    "name": "bewerber/c24.blog",
+    "autoload": {
+        "psr-4": {
+            "Bewerber\\C24Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bewerber",
+            "email": "christian.bringmann@check24.de"
+        }
+    ],
+    "require": {}
+}
