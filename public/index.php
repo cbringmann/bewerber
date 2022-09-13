@@ -1,3 +1,3 @@
 <?php
 
-die('Hallo');
+die('Hello');
