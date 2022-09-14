@@ -10,10 +10,10 @@ function redirect($location){
 function isLoggedIn(){
 
     if(isset($_SESSION['username'])){
-        return true;
+        return false;
     }
 
-    return false;
+    return true;
 }
 
 function checkIfUserIsLoggedInAndRedirect($redirectLocation=null){
