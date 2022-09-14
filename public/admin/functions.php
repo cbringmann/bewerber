@@ -2,7 +2,7 @@
 
 function login_user($username, $password) {
 
-    $GLOBALS $conn;
+    global $conn;
 
     $username = trim($username);
     $password = trim($password);
