@@ -40,7 +40,7 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h4 class="featurette-heading fw-normal lh-1">HEUTE, 14:11h - <span class="text-muted"><?php echo $post_title ?></span></h4>
+                <h4 class="featurette-heading fw-normal lh-1"><?php echo $post_date ?> - <span class="text-muted"><?php echo $post_title ?></span></h4>
                 <p class="lead"><?php echo $post_content ?>.</p>
                 <p class="author"><?php echo $post_author ?></p>
             </div>
