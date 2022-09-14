@@ -25,6 +25,8 @@ function login_user($username, $password) {
     $db_username = $row['username'];
     $db_user_password = $row['user_password'];
 
+        redirect("/");
+
 
 /*        if (password_verify($password,$db_user_password)) {
 
@@ -39,6 +41,6 @@ function login_user($username, $password) {
         }*/
     }
 
-return true;
+//return true;
 
 }
