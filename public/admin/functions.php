@@ -41,6 +41,7 @@ function login_user($username, $password) {
     $db_username = $row['username'];
     $db_user_password = $row['user_password'];
 
+        $_SESSION['username'] = $db_username;
         redirect("/");
 
 
