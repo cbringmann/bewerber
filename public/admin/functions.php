@@ -7,6 +7,15 @@ function redirect($location){
 
 }
 
+function isLoggedIn(){
+
+    if(isset($_SESSION['username'])){
+        return true;
+    }
+
+    return false;
+}
+
 function login_user($username, $password) {
 
     global $conn;
