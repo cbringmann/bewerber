@@ -4,7 +4,6 @@
 
 <?php
 
-//checkIfUserIsLoggedInAndRedirect('/cms/admin');
 
 
     if(isset($_POST['username']) && isset($_POST['password'])){
