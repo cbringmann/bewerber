@@ -9,9 +9,9 @@
 
     if(isset($_POST['create-form'])) {
 
-        $post_author = $_POST['comment_author'];
-        $comment_email = $_POST['comment_email'];
-        $comment_content = $_POST['comment_content'];
+        $post_title = $_POST['post_title'];
+        $post_image = $_POST['post_image'];
+        $post_content = $_POST['post_content'];
     }
 
 ?>
