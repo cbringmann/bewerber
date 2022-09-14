@@ -14,8 +14,7 @@ if(ifItIsMethod('post')){
         login_user($_POST['username'], $_POST['password']);
 
 
-    }else {
-
+    } else {
 
         redirect('/admin/login.php');
     }
