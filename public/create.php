@@ -3,7 +3,7 @@
 
 <?php
 
-    checkIfUserIsLoggedInAndRedirect('/cms/admin');
+    checkIfUserIsLoggedInAndRedirect('/login.php');
 
 ?>
 

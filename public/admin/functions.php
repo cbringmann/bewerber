@@ -16,6 +16,16 @@ function isLoggedIn(){
     return false;
 }
 
+function checkIfUserIsLoggedInAndRedirect($redirectLocation=null){
+
+    if(isLoggedIn()){
+
+        redirect($redirectLocation);
+
+    }
+
+}
+
 function login_user($username, $password) {
 
     global $conn;
