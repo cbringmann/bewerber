@@ -2,6 +2,8 @@
 
 function login_user($username, $password) {
 
+    $GLOBALS $conn;
+
     $username = trim($username);
     $password = trim($password);
 
