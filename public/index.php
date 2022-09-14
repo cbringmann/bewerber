@@ -16,7 +16,7 @@
     <?php
 
     global $conn;
-    $query = "SELECT * FROM posts";
+    $query = "SELECT * FROM post";
     $select_all_posts_query = mysqli_query($conn,$query);
 
     if (!$select_all_posts_query) {
