@@ -5,7 +5,7 @@
 <?php  include "includes/navigation.php"; ?>
 
 <!-- Content -->
-<div class="container">
+<div class="container mb-3 mt-3">
 
     <?php if(isLoggedIn()): ?>
         <h>HELLO THERE LOGGED IN!</h>
@@ -35,8 +35,6 @@
 
     <div class="container">
         <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
 
         <div class="row featurette">
             <div class="col-md-7">
