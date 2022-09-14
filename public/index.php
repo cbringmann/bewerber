@@ -1,17 +1,11 @@
-<?php
+<?php  include "includes/db.php"; ?>
+<?php  include "includes/header.php"; ?>
 
-$servername = 'localhost';
-$username = 'root';
-$password = '';
+<!-- Navigation -->
+<?php  include "includes/navigation.php"; ?>
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
+<!-- Content -->
+<h>HELLO THERE!</h>
 
-// Check connection
-if ($conn->connect_error) {
-    die('Connection failed: ' . $conn->connect_error);
-}
-
-echo 'Connected successfully' . PHP_EOL;
-
-die('Hello - Hallo');
+<!-- Footer -->
+<?php  include "includes/footer.php"; ?>
