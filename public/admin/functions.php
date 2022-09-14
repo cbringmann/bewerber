@@ -1,5 +1,12 @@
 <?php
 
+function redirect($location){
+
+    header("Location:" . $location);
+    exit;
+
+}
+
 function login_user($username, $password) {
 
     global $conn;
