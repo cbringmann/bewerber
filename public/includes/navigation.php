@@ -12,7 +12,7 @@
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-left mb-md-0">
                 <li><a href="#" class="nav-link px-2 text-secondary">Übersicht</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Neuer Eintrag</a></li>
+                <li><a href="/create.php" class="nav-link px-2 text-white">Neuer Eintrag</a></li>
                 <li><a href="#" class="nav-link px-2 text-white">Impressum</a></li>
             </ul>
 
