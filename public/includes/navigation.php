@@ -1,17 +1,10 @@
 <header class="p-3 text-bg-dark">
     <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start bg-white">
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-left mb-md-0">
-                <li><a href="#" class="nav-link px-2 text-secondary">Übersicht</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Neuer Eintrag</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Impressum</a></li>
+                <li><a href="#" class="nav-link px-2 text-black">Bloglogo</a></li>
+                <li><a href="#" class="nav-link px-2 text-black">Blog NAME</a></li>
             </ul>
-
-            <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2">Login</button>
-                <button type="button" class="btn btn-warning">Sign-up</button>
-            </div>
         </div>
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
