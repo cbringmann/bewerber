@@ -5,15 +5,15 @@ function login_user($username, $password) {
     $username = trim($username);
     $password = trim($password);
 
-    $username = mysqli_real_escape_string($connection, $username);
-    $password = mysqli_real_escape_string($connection, $password);
+    $username = mysqli_real_escape_string($conn, $username);
+    $password = mysqli_real_escape_string($conn, $password);
 
 
     $query = "SELECT * FROM users WHERE username = '{$username}' ";
-    $select_user_query = mysqli_query($connection, $query);
+    $select_user_query = mysqli_query($conn, $query);
     if (!$select_user_query) {
 
-        die("QUERY FAILED" . mysqli_error($connection));
+        die("QUERY FAILED" . mysqli_error($conn));
 
     }
 
