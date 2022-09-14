@@ -1,7 +1,7 @@
 
 <!-- Footer -->
-<footer>
-    <div class="container text-bg-dark">
+<footer class="text-bg-dark">
+    <div class="container">
     <div class="row">
         <div class="col-lg-12">
             <p>Copyright &copy; Blog by Check24</p>
