@@ -1,10 +1,12 @@
 
 <!-- Footer -->
 <footer>
+    <div class="container text-bg-black">
     <div class="row">
         <div class="col-lg-12">
             <p>Copyright &copy; Blog by Check24</p>
         </div>
+    </div>
     </div>
 </footer>
 

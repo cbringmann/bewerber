@@ -5,7 +5,9 @@
 <?php  include "includes/navigation.php"; ?>
 
 <!-- Content -->
-<h>HELLO THERE!</h>
+<div class="container">
+    <h>HELLO THERE!</h>
+</div>
 
 <!-- Footer -->
 <?php  include "includes/footer.php"; ?>
