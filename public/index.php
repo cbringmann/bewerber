@@ -41,8 +41,7 @@
 
             </div>
         </div>
-
-        <hr class="featurette-divider">
+        
     </div>
 
 
