@@ -14,6 +14,7 @@
     <?php endif; ?>
 
     <?php
+    global $conn;
     $query = "SELECT * FROM posts";
     $select_all_posts_query = mysqli_query($conn,$query);
 
