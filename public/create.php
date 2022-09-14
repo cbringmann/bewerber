@@ -5,6 +5,8 @@
 
     checkIfUserIsLoggedInAndRedirect('/login.php');
 
+echo $_SESSION['username'];
+
 ?>
 
 <!-- Navigation -->
