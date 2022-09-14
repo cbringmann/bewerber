@@ -11,5 +11,7 @@
             "email": "christian.bringmann@check24.de"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-mysqli": "*"
+    }
 }
