@@ -9,7 +9,9 @@
 
     if(isset($_POST['create-form'])) {
 
-        
+        $post_author = $_POST['comment_author'];
+        $comment_email = $_POST['comment_email'];
+        $comment_content = $_POST['comment_content'];
     }
 
 ?>
@@ -21,11 +23,11 @@
         <form id="create-form" role="form" autocomplete="off" class="form" method="post">
             <div class="form-group mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Title</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input name="post_title" type="text" class="form-control" id="exampleFormControlInput1" >
             </div>
             <div class="form-group mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Link zum Bild</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input name="post_image" type="text" class="form-control" id="exampleFormControlInput2" >
             </div>
             <div class="form-group mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Text</label>
