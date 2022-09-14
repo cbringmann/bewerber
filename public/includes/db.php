@@ -1,8 +1,9 @@
-<?php
+<?php ob_start();
 
 $servername = 'localhost';
 $username = 'root';
 $password = '';
+$databse = 'c24.blog';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
