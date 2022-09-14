@@ -7,13 +7,18 @@
 
     echo $_SESSION['username'];
 
+    if(isset($_POST['create-form'])) {
+
+        
+    }
+
 ?>
 
 <!-- Navigation -->
 <?php  include "includes/navigation.php"; ?>
 
     <div class="container mt-3">
-        <form id="login-form" role="form" autocomplete="off" class="form" method="post">
+        <form id="create-form" role="form" autocomplete="off" class="form" method="post">
             <div class="form-group mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Title</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
