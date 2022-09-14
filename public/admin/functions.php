@@ -26,7 +26,7 @@ function login_user($username, $password) {
     $db_user_password = $row['user_password'];
 
 
-        if (password_verify($password,$db_user_password)) {
+/*        if (password_verify($password,$db_user_password)) {
 
             $_SESSION['username'] = $db_username;
 
@@ -36,7 +36,7 @@ function login_user($username, $password) {
 
         return false;
 
-        }
+        }*/
     }
 
 return true;
