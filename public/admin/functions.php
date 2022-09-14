@@ -24,6 +24,8 @@ function checkIfUserIsLoggedInAndRedirect($redirectLocation=null){
 
     }
 
+    echo $_SESSION['username'];
+
 }
 
 function login_user($username, $password) {
