@@ -17,9 +17,24 @@
             </ul>
 
             <div class="text-end">
+                <?php if(isLoggedIn()): ?>
+                    <li>
+                        <a href="/cms/admin">Admin</a>
+                    </li>
+
+                    <li>
+                        <a href="/cms/includes/logout.php">Logout</a>
+                    </li>
+                <?php else: ?>
+                    <li>
+                        <a href="/cms/login.php">Login</a>
+                    </li>
+                <?php endif; ?>
+            </div>
+
                 <a href="/login.php"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
                 <button type="button" class="btn btn-warning">Sign-up</button>
-            </div>
+
         </div>
     </div>
 </header>
