@@ -6,7 +6,12 @@
 
 <!-- Content -->
 <div class="container">
-    <h>HELLO THERE!</h>
+    <?php if(isLoggedIn()): ?>
+        <h>HELLO THERE LOGGED IN!</h>
+    <?php else: ?>
+        <h>HELLO THERE!</h>
+    <?php endif; ?>
+
 </div>
 
 <!-- Footer -->
