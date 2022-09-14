@@ -15,21 +15,20 @@
 
         if (!empty($post_title) && !empty($post_content)) {
 
-
-            $query = "INSERT INTO post (comment_post_id, comment_author, comment_email, comment_content, comment_status,comment_date)";
-
+            $query = "INSERT INTO post (post_id, post_title, post_author, post_date, post_image, post_content)";
             $query .= "VALUES ($the_post_id ,'{$comment_author}', '{$comment_email}', '{$comment_content }', 'unapproved',now())";
 
-            $create_comment_query = mysqli_query($connection, $query);
+            $create_comment_query = mysqli_query($conn, $query);
 
             if (!$create_comment_query) {
-                die('QUERY FAILED' . mysqli_error($connection));
-
-
+                die('QUERY FAILED' . mysqli_error($conn));
             }
 
+            header("Location: ../index.php");
 
         }
+
+
     }
 
 ?>
