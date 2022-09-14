@@ -17,7 +17,7 @@ if(ifItIsMethod('post')){
     }else {
 
 
-        redirect('/cms/login.php');
+        redirect('/admin/login.php');
     }
 
 }
