@@ -19,6 +19,10 @@
     $query = "SELECT * FROM posts";
     $select_all_posts_query = mysqli_query($conn,$query);
 
+    if (!$select_all_posts_query) {
+        die("QUERY FAILED" . mysqli_error($conn));
+    }
+
     while($row = mysqli_fetch_assoc($select_all_posts_query)) {
 
         $post_title = $row['post_title'];
