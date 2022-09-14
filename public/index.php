@@ -13,7 +13,11 @@
         <h>HELLO THERE!</h>
     <?php endif; ?>
 
-    $post_query_count = "SELECT * FROM posts";
+    <?php
+    $query = "SELECT * FROM posts";
+
+
+    ?>
 
     <div class="container">
         <!-- START THE FEATURETTES -->
