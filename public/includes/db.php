@@ -3,10 +3,10 @@
 $servername = 'localhost';
 $username = 'root';
 $password = '';
-$databse = 'c24.blog';
+$database = 'c24.blog';
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $database);
 
 // Check connection
 if ($conn->connect_error) {
