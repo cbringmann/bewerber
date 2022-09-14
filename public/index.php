@@ -12,6 +12,14 @@
         <h>HELLO THERE!</h>
     <?php endif; ?>
 
+    <div class="container">
+        <div class="blog">
+            <div class="title">Titel1</div>
+            <div class="content">loremsdaaskljhfalshflasgfasgfgasfgasgfadhgsfhjadgsfhgadshfg</div>
+        </div>
+    </div>.container
+
+
 </div>
 
 <!-- Footer -->
