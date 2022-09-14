@@ -18,7 +18,7 @@
 
             <div class="text-end">
                 <?php if(isLoggedIn()): ?>
-                    <a href="/logout.php"><button type="button" class="btn btn-outline-light me-2">Logout</button></a>
+                    <a href="/includes/logout.php"><button type="button" class="btn btn-outline-light me-2">Logout</button></a>
                 <?php else: ?>
                     <a href="/login.php"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
                     <button type="button" class="btn btn-warning">Sign-up</button>
