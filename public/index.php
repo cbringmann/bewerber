@@ -24,7 +24,7 @@ while($row = mysqli_fetch_assoc($select_all_posts_query)) {
     $post_date = $row['post_date'];
     $post_image = $row['post_image'];
     $post_content = substr($row['post_content'],0,400);
-    
+
     ?>
 
     <div class="container">
@@ -34,7 +34,7 @@ while($row = mysqli_fetch_assoc($select_all_posts_query)) {
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h4 class="featurette-heading fw-normal lh-1">HEUTE, 14:11h - <span class="text-muted">Title1</span></h4>
+                <h4 class="featurette-heading fw-normal lh-1">HEUTE, 14:11h - <span class="text-muted"><?php echo $post_title ?></span></h4>
                 <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
             </div>
             <div class="col-md-5">
