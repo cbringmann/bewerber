@@ -7,13 +7,15 @@
 <!-- Content -->
 <div class="container">
 
-    <div class="container">
+    <div class="container mb-3 mt-3">
         <?php if(isLoggedIn()): ?>
             <h>HELLO THERE LOGGED IN!</h>
         <?php else: ?>
             <h>HELLO THERE!</h>
         <?php endif; ?>
     </div>
+
+    <div class="container">
 
     <?php
 
@@ -35,7 +37,7 @@
 
     ?>
 
-    <div class="container">
+
         <!-- START THE FEATURETTES -->
 
         <div class="row featurette">
